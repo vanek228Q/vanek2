@@ -1,0 +1,290 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	font-family: 'Open Sans',sans-serif;
+	background: white;
+
+}
+
+footer{
+	display: flex;
+    background: black;
+}
+
+.rights{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+header{
+	display: flex;
+  	z-index: 1;
+    position: sticky;
+    top: 0;
+    background: black;
+}
+
+.header__logo{
+	text-transform: uppercase;
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 12%;
+}
+
+nav{
+	margin-top: 25px;
+	margin-left: 29%;
+}
+.topnav a{
+	color: white;
+	text-align: center;
+	padding: 0px 16px;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+.topnav a:hover{
+	border-bottom: 3px solid #fcac45;
+}
+.topnav .icon{
+	display: none;
+}
+
+.number{
+	line-height: 75px;
+	color: white;
+	padding: 0px 16px;
+	font-size: 16px;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.number2{
+
+	color: white;
+	font-size: 16px;
+	font-weight:bold;
+	text-decoration: none;
+	text-align: center;
+	padding-left: 927px;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+main .main__welcome {
+	text-align: center;
+	padding: 200px 0 100px 0;
+	background: white;
+}
+
+main .main__welcome p{
+	color: #999999;
+	font-size: 20px;
+	padding: 40px;
+}
+
+main .main__welcome h1{
+	color: #999999;
+	font-size: 44px;
+}
+.mycompany{
+	color: black;
+}
+
+.wrapper{
+	
+	padding: 100px 0 100px 0;
+	}
+
+
+.about__left h1{
+	text-align: center;
+	padding-bottom: 1px;
+	color: black;
+	font-size: 44px;
+	margin: 0px;
+	
+}
+
+.about__left p{
+			margin: 30 px 0 50 px 0;
+			color: black;
+			padding-bottom: 5px;
+			font-size: 27px;
+			margin: 20px ;
+}
+.about__left{
+	
+	
+	padding-left: 25px;
+}
+
+hr{
+	background-color: orange;
+	height: 5px;
+	border: 0;
+}
+
+.wrapper_graf_pad{
+	padding: 80px 0 0;
+}
+.wrapper_ss{
+	width: 76%;
+	margin: 0 auto;
+
+}
+.wrapper_ss h1{
+	text-align: center;
+	padding-bottom: 1px;
+	color: black;
+	font-size: 40px;
+}
+.wrapper_ss p{
+			text-align: left;
+			color: black;
+			padding-bottom: 3px;
+			font-size: 32px;
+			margin: 20px ;
+}
+.wrapper_kont_pad{
+	padding: 60px 0 0;
+}
+.wrapper_kont_ss{
+	width: 76%;
+	margin: 0 auto;
+}
+
+.wrapper_kont_ss h1{
+	text-align: center;
+	vertical-align: top;
+	padding-bottom: 1px;
+	color: black;
+	font-size: 44px;
+}
+.wrapper_kont_ss p{
+			text-align: center;
+			color: black;
+			padding-bottom: 3px;
+			font-size: 27px;
+			margin: 20px ;
+}
+.wrapper_karta_pad{
+	padding: 30px 0 0;
+}
+.wrapper_karta{
+	width: 76%;
+	margin: 0 auto;
+}
+
+.wrapper_last{
+
+	text-transform: uppercase;
+	color: white;
+	font-weight: 800px;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 12%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+	nav{
+		margin-left: 20%;
+	}
+}
+@media screen and (max-width: 1105x){
+	nav{
+		margin-left: 10%;
+	}
+}
+
+@media screen and (max-width: 1010px){
+	.topnav a{
+		display: none;
+	}
+	.topnav a.icon{
+		float: right;
+		margin-top: -17px;
+		display: block;
+		colorl: white;
+		font-size: 25px;
+	}
+	nav{
+		width: 100%;
+	}
+	.topnav.responsive{
+		position: relative;
+		top: 50px;
+		left: -200px;
+	}
+	header .topnav.responsive{
+		height: 340px;
+	}
+.topnav.responsive a.icon{
+		position: absolute;
+		top: -50px;
+		left: -200px;
+}
+.topnav.responsive a{
+	float: none;
+	display: block;
+	text-align: left;
+}
+.number {
+    line-height: 30px;
+    padding: 0px 10px;
+    font-size: 16px;
+    
+main .main__welcome h1 {
+	font-size: 35px;
+}
+.wrapper_ss h1 {
+	font-size: 32px;
+}
+.wrapper_ss p {
+	font-size: 25px;
+}
+.wrapper_kont_ss h1 {
+	font-size: 35px;
+}
+.wrapper_kont_ss p {
+	font-size: 20px;
+	
+}
